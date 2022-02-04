@@ -3,9 +3,9 @@
 This is a practice project for learning Android using Java.
 
 
-### Features
+### ⚡ Features ⚡
 
-- Beautiful UI
+- Beautiful UI 🔥
 - Authentication using Firebase. 
 - Login With Email and Password 
 - SignUp using Email and Password.
