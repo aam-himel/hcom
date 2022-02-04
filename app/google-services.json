@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "168740360801",
+    "project_id": "hcom-33950",
+    "storage_bucket": "hcom-33950.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168740360801:android:fbeaf9c9ada6e35ca31020",
+        "android_client_info": {
+          "package_name": "com.example.hcom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168740360801-4vpfsrhqkkdvh8p1794pt8j4n6slpq5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnAyY0079Z6HxOYJgQIBwz38QzAm02u8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168740360801-4vpfsrhqkkdvh8p1794pt8j4n6slpq5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
