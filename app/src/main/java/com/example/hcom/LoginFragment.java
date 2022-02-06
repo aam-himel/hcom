@@ -41,6 +41,10 @@ public class LoginFragment extends Fragment {
             binding.errorET.setText(errMessage);
         });
 
+        binding.signUpLink.setOnClickListener(view -> {
+            Navigation.findNavController(view).navigate(R.id.action_loginFragment_to_signUpFragment);
+        });
+
         return binding.getRoot();
     }
 }

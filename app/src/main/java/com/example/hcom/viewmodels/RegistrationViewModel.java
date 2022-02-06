@@ -62,4 +62,13 @@ public class RegistrationViewModel extends ViewModel {
 
         });
     }
+
+    public void register(String firstName, String lastName, String email, String password) {
+        auth.createUserWithEmailAndPassword(email, password).addOnSuccessListener(authResult -> {
+           user = authResult.getUser();
+           stateLiveData.postValue(AuthState.AUTHENTICATED);
+        }).addOnFailureListener(e -> {
+            stateLiveData.postValue(AuthState.UNAUTHENTICATED);
+        });
+    }
 }
