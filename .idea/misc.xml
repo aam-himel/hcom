@@ -6,10 +6,21 @@
         <entry key="..\:/_Mobile App Development/Android Development/Hcom/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/_Mobile App Development/Android Development/Hcom/app/src/main/res/layout/fragment_login.xml" value="0.22" />
         <entry key="..\:/_Mobile App Development/Android Development/Hcom/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/drawable/ic_account_edit.xml" value="0.1" />
+        <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/drawable/ic_cart.xml" value="0.1" />
+        <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/drawable/ic_flash.xml" value="0.1" />
+        <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/drawable/ic_news.xml" value="0.1" />
+        <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/drawable/ic_search.xml" value="0.1" />
         <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/layout/fragment_home.xml" value="0.14375" />
+        <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/layout/fragment_account.xml" value="0.1328125" />
+        <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/layout/fragment_campaigns.xml" value="0.1328125" />
+        <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/layout/fragment_cart.xml" value="0.1328125" />
+        <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/layout/fragment_news_feed.xml" value="0.1328125" />
         <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/layout/fragment_sign_up.xml" value="0.2" />
+        <entry key="..\:/_Mobile App Development/Android Development/hcom/app/src/main/res/menu/tabs.xml" value="0.21" />
       </map>
     </option>
   </component>
@@ -18,5 +29,8 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
   </component>
 </project>

@@ -15,4 +15,20 @@
     <color name="brand_text_dark">#0D041D</color>
     <color name="brand_gray">#707070</color>
     <color name="brand_bg_light">#EDF1FF</color>
+
+<!--    Tailwind colors -->
+    <color name="orange_500">#f97316</color>
+    <color name="orange_600">#d97706</color>
+
+    <color name="yellow_500">#eab308</color>
+    <color name="yellow_400">#facc15</color>
+
+    <color name="cyan_50">#ecfeff</color>
+    <color name="cyan_500">#06b6d4</color>
+
+    <color name="blue_500">#3b82f6</color>
+    <color name="blue_800">#1e40af</color>
+
+    <color name="indigo_800">#3730a3</color>
+
 </resources>

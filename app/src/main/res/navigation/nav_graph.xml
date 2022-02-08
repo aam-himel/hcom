@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/loginFragment"
@@ -48,5 +48,37 @@
         <action
             android:id="@+id/action_homeFragment_to_loginFragment2"
             app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_newsFeedFragment"
+            app:destination="@id/newsFeedFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_campaignsFragment"
+            app:destination="@id/campaignsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_accountFragment"
+            app:destination="@id/accountFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/newsFeedFragment"
+        android:name="com.example.hcom.NewsFeedFragment"
+        android:label="fragment_news_feed"
+        tools:layout="@layout/fragment_news_feed" />
+    <fragment
+        android:id="@+id/campaignsFragment"
+        android:name="com.example.hcom.CampaignsFragment"
+        android:label="fragment_campaigns"
+        tools:layout="@layout/fragment_campaigns" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.hcom.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.hcom.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
 </navigation>
