@@ -33,7 +33,6 @@ public class NewsFeedRepository {
             }
         });
 
-
         return liveData;
     }
 
